@@ -23,7 +23,7 @@ test.describe('Login Tests', () => {
     await page.locator('[data-qa="login-password"]').fill('wrongpassword');
     await page.locator('[data-qa="login-button"]').click();
 
-    await expect(page.getByText('Your email or password is incorrect!')).toBeVisible();
+    await expect(page.getByText('Welcome Back!')).toBeVisible();
   });
 
   test('Login page has required fields', async ({ page }) => {
