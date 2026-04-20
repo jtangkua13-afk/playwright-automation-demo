@@ -40,6 +40,9 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+playwright-report/
+test-results/
+.playwright/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
