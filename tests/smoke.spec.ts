@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
+import { TEST_CONFIG } from '../config/test.config';
 
-const BASE_URL = 'https://automationexercise.com';
+const BASE_URL = TEST_CONFIG.baseUrl;
 
 test.describe('Smoke Tests - Critical Pages', () => {
 
